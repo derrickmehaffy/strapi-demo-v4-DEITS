@@ -1,0 +1,32 @@
+{
+  "name": "test-deits",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "@strapi/plugin-i18n": "0.0.0-544fb057c2a0257cd03efce151801ba846b2acaa",
+    "@strapi/plugin-users-permissions": "0.0.0-544fb057c2a0257cd03efce151801ba846b2acaa",
+    "@strapi/strapi": "0.0.0-544fb057c2a0257cd03efce151801ba846b2acaa",
+    "better-sqlite3": "7.4.6",
+    "find-config": "^1.0.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "1f95b341-5c66-4c2f-80d2-9e8a1f509774"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
